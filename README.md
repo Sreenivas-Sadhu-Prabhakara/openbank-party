@@ -1,5 +1,7 @@
 # openbank-party
 
+[![CI](https://github.com/Sreenivas-Sadhu-Prabhakara/openbank-party/actions/workflows/ci.yml/badge.svg)](https://github.com/Sreenivas-Sadhu-Prabhakara/openbank-party/actions/workflows/ci.yml) [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE) [![Go](https://img.shields.io/badge/Go-1.25-00ADD8?logo=go&logoColor=white)](https://go.dev)
+
 The **Party** microservice — the BIAN *Party Reference Data Management* service domain, exposing the OBIE **Party** resource (the PSU and related parties).
 
 The public endpoints are consent-protected: the caller supplies `x-consent-id`, and the service requires an authorised `account-access` consent that includes the `ReadParty` permission.
